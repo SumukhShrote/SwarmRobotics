@@ -1,0 +1,147 @@
+[0.024s] Invoking command in '/home/janhavi/SwarmRobotics/src/build/px4_ros_com': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp:/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/swarm_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/janhavi/SwarmRobotics/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/janhavi/SwarmRobotics/src/install/px4_ros_com
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.166s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.443s] -- Detecting CXX compile features
+[0.444s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.034s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.159s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.199s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.205s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.215s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.285s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.302s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.305s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.340s] -- Found px4_msgs: 2.0.1 (/home/janhavi/SwarmRobotics/src/install/px4_msgs/share/px4_msgs/cmake)
+[1.362s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.440s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.448s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.601s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.645s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.719s] -- Looking for pthread.h
+[1.805s] -- Looking for pthread.h - found
+[1.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.907s] -- Found Threads: TRUE  
+[1.969s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.990s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[2.001s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.127s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.131s] -- Configured cppcheck include dirs: /home/janhavi/SwarmRobotics/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/janhavi/SwarmRobotics/src/px4_ros_com/include/px4_ros_com>
+[2.132s] -- Configured cppcheck exclude dirs and/or files: 
+[2.135s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.135s] -- Configured cpplint exclude dirs and/or files: 
+[2.136s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.138s] -- Added test 'lint_cmake' to check CMake code style
+[2.139s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.142s] -- Added test 'uncrustify' to check C / C++ code style
+[2.143s] -- Configured uncrustify additional arguments: 
+[2.144s] -- Added test 'xmllint' to check XML markup files
+[2.146s] -- Configuring done
+[2.168s] -- Generating done
+[2.179s] -- Build files have been written to: /home/janhavi/SwarmRobotics/src/build/px4_ros_com
+[2.191s] Invoked command in '/home/janhavi/SwarmRobotics/src/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp:/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/swarm_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/janhavi/SwarmRobotics/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/janhavi/SwarmRobotics/src/install/px4_ros_com
+[2.194s] Invoking command in '/home/janhavi/SwarmRobotics/src/build/px4_ros_com': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp:/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/swarm_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/janhavi/SwarmRobotics/src/build/px4_ros_com -- -j12 -l12
+[2.254s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[2.257s] [ 16%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[2.257s] [ 25%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[2.258s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[2.258s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[2.261s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[2.269s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[3.030s] running egg_info
+[3.091s] creating px4_ros_com.egg-info
+[3.092s] writing px4_ros_com.egg-info/PKG-INFO
+[3.094s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[3.098s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[3.099s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.287s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.293s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[3.473s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[22.761s] [ 58%] [32m[1mLinking CXX executable offboard_control[0m
+[24.232s] [ 58%] Built target offboard_control
+[26.924s] [ 66%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[27.887s] [ 66%] Built target debug_vect_advertiser
+[35.458s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[36.650s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[36.880s] [ 83%] Built target offboard_control_srv
+[37.655s] [ 83%] Built target frame_transforms
+[39.283s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[39.620s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[40.400s] [100%] Built target vehicle_gps_position_listener
+[40.578s] [100%] Built target sensor_combined_listener
+[40.602s] Invoked command in '/home/janhavi/SwarmRobotics/src/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp:/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/swarm_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/janhavi/SwarmRobotics/src/build/px4_ros_com -- -j12 -l12
+[40.606s] Invoking command in '/home/janhavi/SwarmRobotics/src/build/px4_ros_com': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp:/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/swarm_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/janhavi/SwarmRobotics/src/build/px4_ros_com
+[40.621s] -- Install configuration: ""
+[40.623s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[40.631s] -- Set runtime path of "/home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[40.631s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[40.635s] -- Set runtime path of "/home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[40.636s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[40.638s] -- Set runtime path of "/home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[40.639s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[40.641s] -- Set runtime path of "/home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[40.641s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[40.643s] -- Set runtime path of "/home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[40.644s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[40.645s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[40.645s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/include/px4_ros_com
+[40.646s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[40.648s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/libframe_transforms.so
+[40.653s] -- Set runtime path of "/home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[40.653s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//launch
+[40.653s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[40.653s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[40.654s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//test
+[40.654s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[40.655s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[40.655s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[40.656s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[40.656s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[40.657s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[40.657s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[40.657s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[40.657s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[40.658s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[40.658s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[40.658s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[40.660s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[40.660s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[40.780s] Listing '/home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[40.781s] Compiling '/home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[40.782s] Compiling '/home/janhavi/SwarmRobotics/src/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[40.796s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[40.798s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[40.801s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[40.802s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[40.808s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[40.809s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[40.809s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[40.809s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[40.810s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[40.810s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[40.810s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[40.810s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/package.dsv
+[40.818s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[40.819s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[40.819s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[40.819s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.823s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[40.823s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.823s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[40.823s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[40.824s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[40.824s] -- Installing: /home/janhavi/SwarmRobotics/src/install/px4_ros_com/share/px4_ros_com/package.xml
+[40.829s] Invoked command in '/home/janhavi/SwarmRobotics/src/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp:/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/swarm_teleop:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/src/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/janhavi/SwarmRobotics/src/build/px4_ros_com

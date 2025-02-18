@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-df31b80dbee573bfba8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_mode_with_executor_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_mode_with_executor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_mode_with_executor-bc969bac4aee6603f813.json",
+					"name" : "example_mode_with_executor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_mode_with_executor_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_mode_with_executor_cpp_uninstall-4fcabe87d9f408985399.json",
+					"name" : "example_mode_with_executor_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-aa7c1d4e00cbe50f4267.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/janhavi/SwarmRobotics/src/build/example_mode_with_executor_cpp",
+		"source" : "/home/janhavi/SwarmRobotics/src/px4-ros2-interface-lib/examples/cpp/modes/mode_with_executor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

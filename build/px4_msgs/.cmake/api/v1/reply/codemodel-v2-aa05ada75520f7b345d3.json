@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-893e57aa889ef6dd8d69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "px4_msgs__py",
+					"jsonFile" : "directory-px4_msgs__py-f161863f7afe46f0d0d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/janhavi/SwarmRobotics/build/px4_msgs/px4_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "px4_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_px4_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_px4_msgs_egg-d9592e4542f6d374e057.json",
+					"name" : "ament_cmake_python_build_px4_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_px4_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_px4_msgs-054e466e1376fbae7a4b.json",
+					"name" : "ament_cmake_python_symlink_px4_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs-34b89c699975c68377e5.json",
+					"name" : "px4_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__cpp-8113d5506784c311fb9a.json",
+					"name" : "px4_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "px4_msgs__py::@2036f14245c7957b8037",
+					"jsonFile" : "target-px4_msgs__py-fe969729fb16d4d841d6.json",
+					"name" : "px4_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_c-2881d40dc7bb6ac36bc9.json",
+					"name" : "px4_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_generator_py-fba973dd3cc059ce60cb.json",
+					"name" : "px4_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_c-85df5caab106d2ad79df.json",
+					"name" : "px4_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_c__pyext-309a69bca84aa8267317.json",
+					"name" : "px4_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_cpp-eee2e52100ed43d5c360.json",
+					"name" : "px4_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_c-fa464fd31807efa6898a.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_c__pyext-b21f7926bef992168c11.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_fastrtps_cpp-9c69dd980f0c9ca5a949.json",
+					"name" : "px4_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_c-1fd53b248a981d738211.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_c__pyext-a8127c982f0dbc3cecc7.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs__rosidl_typesupport_introspection_cpp-b68891d08e3aa152f4c0.json",
+					"name" : "px4_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_msgs_uninstall-fd6884338104d556305f.json",
+					"name" : "px4_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d2f9eaf724f0e7aae7fa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/janhavi/SwarmRobotics/build/px4_msgs",
+		"source" : "/home/janhavi/SwarmRobotics/src/px4_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

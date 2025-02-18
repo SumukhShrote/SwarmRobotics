@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/swarm_teleop/swarm_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/swarm_teleop/swarm_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/swarm_teleop/swarm_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/swarm_teleop/swarm_teleop.egg-info/requires.txt
+writing top-level names to ../../build/swarm_teleop/swarm_teleop.egg-info/top_level.txt
+reading manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying swarm_teleop/teleop_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+copying swarm_teleop/__init__.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+copying swarm_teleop/arming.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+copying swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+running install
+running install_lib
+copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/arming.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/arming.py to arming.cpython-310.pyc
+running install_data
+copying resource/swarm_teleop -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop
+copying launch/swarm_teleop.launch.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop/launch
+running install_egg_info
+removing '/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/swarm_teleop/swarm_teleop.egg-info to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info
+running install_scripts
+Installing teleop_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+Installing velocity_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+writing list of installed files to '/home/janhavi/SwarmRobotics/build/swarm_teleop/install.log'

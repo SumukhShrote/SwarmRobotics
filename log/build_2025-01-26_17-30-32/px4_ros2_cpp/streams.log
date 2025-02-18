@@ -1,0 +1,125 @@
+[0.009s] Invoking command in '/home/janhavi/SwarmRobotics/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/janhavi/SwarmRobotics/build/px4_ros2_cpp -- -j12 -l12
+[0.053s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.055s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.055s] [  8%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/health_and_arming_checks.cpp.o[0m
+[0.058s] [ 10%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/message_compatibility_check.cpp.o[0m
+[0.058s] [ 12%] [32mBuilding CXX object CMakeFiles/unit_utils.dir/test/unit/utils/util.cpp.o[0m
+[0.059s] [ 14%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode_executor.cpp.o[0m
+[0.060s] [ 14%] [32mBuilding CXX object CMakeFiles/integration_utils.dir/test/integration/util.cpp.o[0m
+[0.065s] [ 19%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/registration.cpp.o[0m
+[0.066s] [ 19%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/overrides.cpp.o[0m
+[0.066s] [ 23%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/wait_for_fmu.cpp.o[0m
+[0.070s] [ 23%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode.cpp.o[0m
+[0.070s] [ 25%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/manual_control_input.cpp.o[0m
+[2.161s] [ 27%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.284s] [ 27%] Built target gtest_main
+[2.322s] [ 29%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/peripheral_actuators.cpp.o[0m
+[6.975s] [ 31%] [32m[1mLinking CXX shared library libunit_utils.so[0m
+[7.383s] [ 31%] Built target unit_utils
+[7.407s] [ 34%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/direct_actuators.cpp.o[0m
+[8.108s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.325s] [ 36%] Built target gtest
+[8.358s] [ 38%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/goto.cpp.o[0m
+[68.521s] [ 40%] [32m[1mLinking CXX shared library libintegration_utils.so[0m
+[69.238s] [ 40%] Built target integration_utils
+[74.997s] [ 42%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/map_projection_impl.cpp.o[0m
+[76.548s] [ 44%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/geodesic.cpp.o[0m
+[82.864s] [ 46%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/angular_velocity.cpp.o[0m
+[88.836s] [ 48%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/local_position.cpp.o[0m
+[94.436s] [ 51%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/global_position.cpp.o[0m
+[99.873s] [ 53%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/attitude.cpp.o[0m
+[105.446s] [ 55%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/local_position_measurement_interface.cpp.o[0m
+[109.232s] [ 57%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/global_position_measurement_interface.cpp.o[0m
+[112.374s] [ 59%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/trajectory.cpp.o[0m
+[115.627s] [ 61%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/rates.cpp.o[0m
+[118.604s] [ 63%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/attitude.cpp.o[0m
+[121.981s] [ 65%] [32m[1mLinking CXX shared library libpx4_ros2_cpp.so[0m
+[125.166s] [ 65%] Built target px4_ros2_cpp
+[125.185s] [ 68%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/arming_check.cpp.o[0m
+[127.533s] [ 70%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/overrides.cpp.o[0m
+[131.002s] [ 72%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode_executor.cpp.o[0m
+[134.628s] [ 74%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode.cpp.o[0m
+[138.012s] [ 76%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/local_navigation.cpp.o[0m
+[144.622s] [ 78%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/global_navigation.cpp.o[0m
+[150.993s] [ 80%] [32m[1mLinking CXX executable integration_tests[0m
+[152.088s] [ 80%] Built target integration_tests
+[152.106s] [ 82%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/global_navigation.cpp.o[0m
+[158.433s] [ 89%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geometry.cpp.o[0m
+[158.433s] [ 89%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/map_projection_impl.cpp.o[0m
+[158.433s] [ 89%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geodesic.cpp.o[0m
+[159.896s] [ 93%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/modes.cpp.o[0m
+[159.896s] [ 93%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/frame_conversion.cpp.o[0m
+[160.801s] [ 97%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/local_navigation.cpp.o[0m
+[160.801s] [ 97%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/main.cpp.o[0m
+[164.812s] [100%] [32m[1mLinking CXX executable px4_ros2_cpp_unit_tests[0m
+[165.582s] [100%] Built target px4_ros2_cpp_unit_tests
+[165.596s] Invoked command in '/home/janhavi/SwarmRobotics/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/janhavi/SwarmRobotics/build/px4_ros2_cpp -- -j12 -l12
+[165.597s] Invoking command in '/home/janhavi/SwarmRobotics/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/janhavi/SwarmRobotics/build/px4_ros2_cpp
+[165.604s] -- Install configuration: ""
+[165.605s] -- Execute custom install script
+[165.605s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.sh
+[165.612s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.dsv
+[165.617s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/common/context.hpp
+[165.624s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/common/frame.hpp
+[165.629s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/common/requirement_flags.hpp
+[165.636s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/common/setpoint_base.hpp
+[165.643s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/events.hpp
+[165.651s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/groups.dox
+[165.659s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/health_and_arming_checks.hpp
+[165.665s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/manual_control_input.hpp
+[165.671s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/message_compatibility_check.hpp
+[165.678s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/mode.hpp
+[165.684s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp
+[165.688s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp
+[165.695s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/overrides.hpp
+[165.700s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/components/wait_for_fmu.hpp
+[165.705s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/groups.dox
+[165.711s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/peripheral_actuators.hpp
+[165.718s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/direct_actuators.hpp
+[165.724s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/attitude.hpp
+[165.731s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rates.hpp
+[165.736s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp
+[165.743s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/goto.hpp
+[165.748s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/groups.dox
+[165.754s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/global_position_measurement_interface.hpp
+[165.759s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/local_position_measurement_interface.hpp
+[165.765s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/navigation_interface_base.hpp
+[165.770s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+[165.776s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/odometry/angular_velocity.hpp
+[165.784s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/odometry/attitude.hpp
+[165.789s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/odometry/global_position.hpp
+[165.796s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/odometry/groups.dox
+[165.801s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/odometry/local_position.hpp
+[165.807s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/utils/frame_conversion.hpp
+[165.812s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/utils/geodesic.hpp
+[165.818s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/utils/geometry.hpp
+[165.824s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/utils/groups.dox
+[165.830s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/utils/subscription.hpp
+[165.836s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/battery.hpp
+[165.843s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+[165.848s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position.hpp
+[165.856s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/land_detected.hpp
+[165.861s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vehicle_status.hpp
+[165.867s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vtol_status.hpp
+[165.872s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/px4_ros2_cpp
+[165.879s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/px4_ros2_cpp
+[165.884s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.sh
+[165.890s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.dsv
+[165.896s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.sh
+[165.901s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.dsv
+[165.907s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.bash
+[165.913s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.sh
+[165.919s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.zsh
+[165.926s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.dsv
+[165.933s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv
+[165.938s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/ament_index/resource_index/packages/px4_ros2_cpp
+[165.944s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[165.951s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[165.957s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig.cmake
+[165.964s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig-version.cmake
+[165.970s] -- Symlinking: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/package.xml
+[165.976s] -- Installing: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so
+[166.006s] -- Set runtime path of "/home/janhavi/SwarmRobotics/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so" to ""
+[166.006s] -- Installing: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport.cmake
+[166.017s] -- Installing: /home/janhavi/SwarmRobotics/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport-noconfig.cmake
+[166.019s] Invoked command in '/home/janhavi/SwarmRobotics/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/janhavi/SwarmRobotics/build/px4_ros2_cpp

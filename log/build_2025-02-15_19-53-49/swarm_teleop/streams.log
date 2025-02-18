@@ -1,0 +1,30 @@
+[0.652s] Invoking command in '/home/janhavi/SwarmRobotics/src/swarm_teleop': CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:/home/janhavi/SwarmRobotics/install/px4_ros_com/lib:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/build/swarm_teleop/install.log --single-version-externally-managed install_data
+[0.926s] running egg_info
+[0.934s] writing ../../build/swarm_teleop/swarm_teleop.egg-info/PKG-INFO
+[0.935s] writing dependency_links to ../../build/swarm_teleop/swarm_teleop.egg-info/dependency_links.txt
+[0.935s] writing entry points to ../../build/swarm_teleop/swarm_teleop.egg-info/entry_points.txt
+[0.935s] writing requirements to ../../build/swarm_teleop/swarm_teleop.egg-info/requires.txt
+[0.935s] writing top-level names to ../../build/swarm_teleop/swarm_teleop.egg-info/top_level.txt
+[0.952s] reading manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[0.953s] writing manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[0.953s] running build
+[0.953s] running build_py
+[0.953s] copying swarm_teleop/teleop_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[0.953s] copying swarm_teleop/__init__.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[0.953s] copying swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[0.953s] running install
+[0.957s] running install_lib
+[0.965s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[0.966s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/velocity_control.py to velocity_control.cpython-310.pyc
+[0.967s] running install_data
+[0.968s] copying resource/swarm_teleop -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/ament_index/resource_index/packages
+[0.968s] copying package.xml -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop
+[0.968s] copying launch/swarm_teleop.launch.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop/launch
+[0.968s] running install_egg_info
+[0.977s] removing '/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[0.977s] Copying ../../build/swarm_teleop/swarm_teleop.egg-info to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info
+[0.978s] running install_scripts
+[1.049s] Installing teleop_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+[1.049s] Installing velocity_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+[1.049s] writing list of installed files to '/home/janhavi/SwarmRobotics/build/swarm_teleop/install.log'
+[1.075s] Invoked command in '/home/janhavi/SwarmRobotics/src/swarm_teleop' returned '0': CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:/home/janhavi/SwarmRobotics/install/px4_ros_com/lib:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/build/swarm_teleop/install.log --single-version-externally-managed install_data
