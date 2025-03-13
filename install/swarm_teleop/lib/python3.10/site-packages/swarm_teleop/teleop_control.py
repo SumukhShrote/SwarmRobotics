@@ -105,8 +105,8 @@ def main():
     arm_pub = node.create_publisher(std_msgs.msg.Bool, '/arm_message', qos_profile)
 
 
-    speed = 0.01
-    turn = 0.01
+    speed = 3
+    turn = 3
     x = 0.0
     y = 0.0
     z = 0.0

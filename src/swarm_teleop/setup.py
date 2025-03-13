@@ -20,8 +20,8 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
-            'velocity_control = swarm_teleop.velocity_control:main',
-            'teleop_control = swarm_teleop.teleop_control:main',
+            'final_control = swarm_teleop.final_control:main',
+            'arm_control = swarm_teleop.arm_control:main',
         ],
     },
 )

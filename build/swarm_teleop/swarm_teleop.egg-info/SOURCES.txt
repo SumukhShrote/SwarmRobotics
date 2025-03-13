@@ -11,6 +11,8 @@ setup.py
 launch/swarm_teleop.launch.py
 resource/swarm_teleop
 swarm_teleop/__init__.py
+swarm_teleop/arm_control.py
+swarm_teleop/final_control.py
 swarm_teleop/teleop_control.py
 swarm_teleop/velocity_control.py
 test/test_copyright.py

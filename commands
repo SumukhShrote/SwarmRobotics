@@ -1,0 +1,5 @@
+1. ~/Downloads$ ./QGroundControl.AppImage 
+2. ~/Micro-XRCE-DDS-Agent$ MicroXRCEAgent udp4 -p 8888
+3. ~/PX4-Autopilot/Tools/simulation/gazebo-classic$ ./sitl_multiple_run.sh -n 5 -w drone_world -p "0.5,-7.5|0.5,-8.5|0.5,-9.5|-0.5,-8.5|1.5,-8.5"
+4. ~/SwarmRobotics$ ros2 launch swarm_teleop swarm_teleop.launch.py 
+

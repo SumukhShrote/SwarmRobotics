@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from launch import LaunchDescription
 from launch.actions import ExecuteProcess
 from launch_ros.actions import Node
@@ -12,14 +13,14 @@ def generate_launch_description():
         # ExecuteProcess(cmd=['bash', bash_script_path], output='screen'),
         Node(
             package='swarm_teleop',
-            executable='teleop_control',
-            name='teleop_control',
+            executable='arm_control',
+            name='arm_control',
             prefix='gnome-terminal --',
         ),
         Node(
             package='swarm_teleop',
-            executable='velocity_control',
-            name='velocity'
+            executable='final_control',
+            name='final_control'
         ),
         
     ])

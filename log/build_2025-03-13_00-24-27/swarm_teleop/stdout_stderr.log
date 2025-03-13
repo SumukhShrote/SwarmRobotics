@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing swarm_teleop.egg-info/PKG-INFO
+writing dependency_links to swarm_teleop.egg-info/dependency_links.txt
+writing entry points to swarm_teleop.egg-info/entry_points.txt
+writing requirements to swarm_teleop.egg-info/requires.txt
+writing top-level names to swarm_teleop.egg-info/top_level.txt
+reading manifest file 'swarm_teleop.egg-info/SOURCES.txt'
+writing manifest file 'swarm_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm-teleop.egg-link (link to .)
+Installing arm_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+Installing final_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+
+Installed /home/janhavi/SwarmRobotics/build/swarm_teleop
+running symlink_data

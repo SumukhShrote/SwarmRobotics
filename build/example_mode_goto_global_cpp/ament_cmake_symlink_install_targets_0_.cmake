@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/janhavi/SwarmRobotics/build/example_mode_goto_global_cpp/example_mode_goto_global" "TARGETS" "example_mode_goto_global" "DESTINATION" "lib/example_mode_goto_global_cpp")

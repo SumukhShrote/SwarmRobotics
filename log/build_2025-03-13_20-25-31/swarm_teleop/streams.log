@@ -1,0 +1,32 @@
+[1.227s] Invoking command in '/home/janhavi/SwarmRobotics/src/swarm_teleop': CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:/home/janhavi/SwarmRobotics/install/px4_ros_com/lib:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/build/swarm_teleop/install.log --single-version-externally-managed install_data
+[1.563s] running egg_info
+[1.582s] writing ../../build/swarm_teleop/swarm_teleop.egg-info/PKG-INFO
+[1.583s] writing dependency_links to ../../build/swarm_teleop/swarm_teleop.egg-info/dependency_links.txt
+[1.583s] writing entry points to ../../build/swarm_teleop/swarm_teleop.egg-info/entry_points.txt
+[1.583s] writing requirements to ../../build/swarm_teleop/swarm_teleop.egg-info/requires.txt
+[1.583s] writing top-level names to ../../build/swarm_teleop/swarm_teleop.egg-info/top_level.txt
+[1.616s] reading manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[1.619s] writing manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[1.619s] running build
+[1.619s] running build_py
+[1.619s] copying swarm_teleop/final_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[1.620s] copying swarm_teleop/teleop_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[1.620s] copying swarm_teleop/__init__.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[1.620s] copying swarm_teleop/arm_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[1.621s] copying swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[1.622s] running install
+[1.628s] running install_lib
+[1.648s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/final_control.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[1.648s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/final_control.py to final_control.cpython-310.pyc
+[1.652s] running install_data
+[1.653s] copying resource/swarm_teleop -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/ament_index/resource_index/packages
+[1.653s] copying package.xml -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop
+[1.653s] copying launch/swarm_teleop.launch.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop/launch
+[1.653s] running install_egg_info
+[1.666s] removing '/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[1.666s] Copying ../../build/swarm_teleop/swarm_teleop.egg-info to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info
+[1.667s] running install_scripts
+[1.841s] Installing arm_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+[1.842s] Installing final_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+[1.842s] writing list of installed files to '/home/janhavi/SwarmRobotics/build/swarm_teleop/install.log'
+[1.883s] Invoked command in '/home/janhavi/SwarmRobotics/src/swarm_teleop' returned '0': CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:/home/janhavi/SwarmRobotics/install/px4_ros_com:/home/janhavi/SwarmRobotics/install/example_mode_with_executor_cpp:/home/janhavi/SwarmRobotics/install/example_mode_rtl_replacement_cpp:/home/janhavi/SwarmRobotics/install/example_mode_manual_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_global_cpp:/home/janhavi/SwarmRobotics/install/example_mode_goto_cpp:/home/janhavi/SwarmRobotics/install/example_mode_fw_attitude_cpp:/home/janhavi/SwarmRobotics/install/example_local_navigation_cpp:/home/janhavi/SwarmRobotics/install/example_global_navigation_cpp:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:/home/janhavi/SwarmRobotics/install/px4_ros_com/lib:/home/janhavi/SwarmRobotics/install/px4_ros2_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/build/swarm_teleop/install.log --single-version-externally-managed install_data

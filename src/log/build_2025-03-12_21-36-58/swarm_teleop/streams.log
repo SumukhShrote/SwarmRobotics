@@ -1,0 +1,34 @@
+[0.408s] Invoking command in '/home/janhavi/SwarmRobotics/src/swarm_teleop': PYTHONPATH=/home/janhavi/SwarmRobotics/src/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/src/build/swarm_teleop/install.log --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.560s] writing ../build/swarm_teleop/swarm_teleop.egg-info/PKG-INFO
+[0.560s] writing dependency_links to ../build/swarm_teleop/swarm_teleop.egg-info/dependency_links.txt
+[0.560s] writing entry points to ../build/swarm_teleop/swarm_teleop.egg-info/entry_points.txt
+[0.560s] writing requirements to ../build/swarm_teleop/swarm_teleop.egg-info/requires.txt
+[0.560s] writing top-level names to ../build/swarm_teleop/swarm_teleop.egg-info/top_level.txt
+[0.577s] reading manifest file '../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.578s] running build_py
+[0.578s] copying swarm_teleop/final_control.py -> /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop
+[0.578s] copying swarm_teleop/teleop_control.py -> /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop
+[0.578s] copying swarm_teleop/__init__.py -> /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop
+[0.578s] copying swarm_teleop/arm_control.py -> /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop
+[0.578s] copying swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop
+[0.578s] running install
+[0.581s] running install_lib
+[0.588s] copying /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop/final_control.py -> /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[0.588s] copying /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build/lib/swarm_teleop/arm_control.py -> /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[0.588s] byte-compiling /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/final_control.py to final_control.cpython-310.pyc
+[0.591s] byte-compiling /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/arm_control.py to arm_control.cpython-310.pyc
+[0.591s] running install_data
+[0.591s] copying resource/swarm_teleop -> /home/janhavi/SwarmRobotics/src/install/swarm_teleop/share/ament_index/resource_index/packages
+[0.591s] copying package.xml -> /home/janhavi/SwarmRobotics/src/install/swarm_teleop/share/swarm_teleop
+[0.591s] copying launch/swarm_teleop.launch.py -> /home/janhavi/SwarmRobotics/src/install/swarm_teleop/share/swarm_teleop/launch
+[0.591s] running install_egg_info
+[0.599s] removing '/home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[0.600s] Copying ../build/swarm_teleop/swarm_teleop.egg-info to /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info
+[0.600s] running install_scripts
+[0.666s] Installing arm_control script to /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/swarm_teleop
+[0.666s] Installing final_control script to /home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/swarm_teleop
+[0.666s] writing list of installed files to '/home/janhavi/SwarmRobotics/src/build/swarm_teleop/install.log'
+[0.682s] Invoked command in '/home/janhavi/SwarmRobotics/src/swarm_teleop' returned '0': PYTHONPATH=/home/janhavi/SwarmRobotics/src/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/src/install/swarm_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/src/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/src/build/swarm_teleop/install.log --single-version-externally-managed install_data

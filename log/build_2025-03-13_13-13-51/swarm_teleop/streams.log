@@ -1,0 +1,45 @@
+[0.919s] Invoking command in '/home/janhavi/SwarmRobotics/build/swarm_teleop': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/janhavi/SwarmRobotics/build/swarm_teleop/build
+[1.420s] running develop
+[1.782s] Removing /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm-teleop.egg-link (link to .)
+[1.911s] Invoked command in '/home/janhavi/SwarmRobotics/build/swarm_teleop' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/janhavi/SwarmRobotics/build/swarm_teleop/build
+[1.912s] Invoking command in '/home/janhavi/SwarmRobotics/src/swarm_teleop': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/build/swarm_teleop/install.log --single-version-externally-managed install_data --force
+[2.236s] running egg_info
+[2.252s] writing ../../build/swarm_teleop/swarm_teleop.egg-info/PKG-INFO
+[2.252s] writing dependency_links to ../../build/swarm_teleop/swarm_teleop.egg-info/dependency_links.txt
+[2.252s] writing entry points to ../../build/swarm_teleop/swarm_teleop.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/swarm_teleop/swarm_teleop.egg-info/requires.txt
+[2.252s] writing top-level names to ../../build/swarm_teleop/swarm_teleop.egg-info/top_level.txt
+[2.277s] reading manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[2.279s] writing manifest file '../../build/swarm_teleop/swarm_teleop.egg-info/SOURCES.txt'
+[2.279s] running build
+[2.279s] running build_py
+[2.279s] creating /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[2.280s] copying swarm_teleop/final_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[2.280s] copying swarm_teleop/teleop_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[2.280s] copying swarm_teleop/__init__.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[2.281s] copying swarm_teleop/arm_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[2.281s] copying swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop
+[2.282s] running install
+[2.288s] running install_lib
+[2.306s] creating /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[2.306s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/final_control.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[2.306s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/teleop_control.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[2.306s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/__init__.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[2.306s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/arm_control.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[2.306s] copying /home/janhavi/SwarmRobotics/build/swarm_teleop/build/lib/swarm_teleop/velocity_control.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop
+[2.306s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/final_control.py to final_control.cpython-310.pyc
+[2.309s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/teleop_control.py to teleop_control.cpython-310.pyc
+[2.310s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/__init__.py to __init__.cpython-310.pyc
+[2.310s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/arm_control.py to arm_control.cpython-310.pyc
+[2.310s] byte-compiling /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop/velocity_control.py to velocity_control.cpython-310.pyc
+[2.312s] running install_data
+[2.312s] copying resource/swarm_teleop -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/ament_index/resource_index/packages
+[2.313s] copying package.xml -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop
+[2.313s] copying launch/swarm_teleop.launch.py -> /home/janhavi/SwarmRobotics/install/swarm_teleop/share/swarm_teleop/launch
+[2.313s] running install_egg_info
+[2.335s] Copying ../../build/swarm_teleop/swarm_teleop.egg-info to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages/swarm_teleop-0.0.1-py3.10.egg-info
+[2.336s] running install_scripts
+[2.462s] Installing arm_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+[2.463s] Installing final_control script to /home/janhavi/SwarmRobotics/install/swarm_teleop/lib/swarm_teleop
+[2.463s] writing list of installed files to '/home/janhavi/SwarmRobotics/build/swarm_teleop/install.log'
+[2.494s] Invoked command in '/home/janhavi/SwarmRobotics/src/swarm_teleop' returned '0': AMENT_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs LD_LIBRARY_PATH=/home/janhavi/SwarmRobotics/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/janhavi/SwarmRobotics/build/swarm_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janhavi/SwarmRobotics/install/swarm_teleop/lib/python3.10/site-packages:/home/janhavi/SwarmRobotics/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_teleop build --build-base /home/janhavi/SwarmRobotics/build/swarm_teleop/build install --record /home/janhavi/SwarmRobotics/build/swarm_teleop/install.log --single-version-externally-managed install_data --force
